@@ -15,4 +15,10 @@ class Person{
      System. out . println("˭˭˭");
 }
 
+    
+    public  void gao(){
+
+     System. out . println("gao");
+}
+
 }
