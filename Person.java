@@ -26,7 +26,7 @@ class Person{
 
      public void hehe(){
 
-	System.out.printlnheh;
+	System.out.printlnheh..
 
 }
 
