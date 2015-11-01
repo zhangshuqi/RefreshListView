@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_listview_head_root"
+    android:orientation="vertical" >
+<!-- 下拉刷新 开始 -->
+    <LinearLayout
+        android:id="@+id/ll_listview_head_refreshview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!-- 箭头 + 进度条 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip" >
+
+            <!-- 箭头 -->
+
+            <ImageView
+                android:id="@+id/iv_listview_head_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/common_listview_headview_red_arrow" />
+            <!-- 进度条 -->
+
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/pb_listview_head_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/red_process" />
+        </FrameLayout>
+
+        <!-- 文字  时间 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_listview_head_statedesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="下拉刷新"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/tv_listview_head_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="2015-10-14 15:46:46"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+<!-- 下拉刷新 结束 -->
+</LinearLayout>

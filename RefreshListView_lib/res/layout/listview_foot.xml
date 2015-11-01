@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <!-- 箭头 + 进度条 -->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip" >
+
+        
+        <!-- 进度条 -->
+
+        <ProgressBar
+            android:id="@+id/pb_listview_foot_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/red_process" />
+    </FrameLayout>
+
+    <!-- 文字  时间 -->
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_listview_foot_statedesc"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载更多"
+            android:textSize="22sp"
+            android:textColor="#ff0000" />
+
+        
+    </LinearLayout>
+
+</LinearLayout>
