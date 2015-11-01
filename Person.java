@@ -15,4 +15,12 @@ class Person{
      System. out . println("À≠À≠À≠");
 }
 
+
+
+   public void run(){
+
+	System.out.println("≈‹");
+
+}
+
 }
