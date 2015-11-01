@@ -23,4 +23,11 @@ class Person{
 
 }
 
+
+     public void hehe(){
+
+	System.out.printlnhehe;
+
+}
+
 }
