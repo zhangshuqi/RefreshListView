@@ -36,4 +36,12 @@ class Person{
 
 }
 
+
+      public void heihie(){
+
+	System.out.printlnheh..
+
+}
+
+
 }
