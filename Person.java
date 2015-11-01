@@ -30,4 +30,10 @@ class Person{
 
 }
 
+      public void haha(){
+
+	System.out.printlnheh..
+
+}
+
 }
